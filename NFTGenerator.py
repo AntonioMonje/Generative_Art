@@ -14,8 +14,6 @@ Num_Shape_z = 0
 r = 0
 x = 0
 y = 0
-pic_name = 'cool'
-pic_name2 = 'cool2'
 
 #create a function that gets random integers for colors evverytime its called
 def random_num_gen():
@@ -100,7 +98,7 @@ image2.save('cool2.jpg')
 
 #alpha-blend the images together
 result = Image.blend(image, image2, alpha=.5)
-
+result.save('result.jpg')
 
 #display the images
 image.show()
