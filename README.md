@@ -1,11 +1,6 @@
 # Generative_Art
 Creates generative art needed for NFT's we will be creating and minting
 
-Please branch off from master if you plan on working on the this project
-branches should follow the naming convention
-LastName_FeatureName
-Once your feature branch is created follow the next steps to run the program and start editing
-
 Steps to running the program
 1) make sure you install the following pillow library
 python3 -m pip install --upgrade pip
